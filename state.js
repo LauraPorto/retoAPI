@@ -1,4 +1,4 @@
-class Store {
+class Storage {
 
     state = [];
 
@@ -21,4 +21,4 @@ class Store {
 
 //Exportación de la clase
 //export default Simulator;
-module.exports = Store;
+module.exports = Storage;
