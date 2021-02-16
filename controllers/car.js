@@ -10,6 +10,22 @@ class Car {
         this.storage = new Storage();
     }
 
+    async indexAll() {
+        return;
+    };
+
+    async store() {
+        return;
+    };
+
+    async update() {
+        return;
+    };
+
+    async destroy() {
+        return;
+    };
+
 }
 
 let carController = new Car();
