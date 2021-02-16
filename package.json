@@ -1,0 +1,23 @@
+{
+  "name": "retoapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LauraPorto/retoAPI.git"
+  },
+  "keywords": [
+    "backend",
+    "api"
+  ],
+  "author": "Laura Porto Castro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LauraPorto/retoAPI/issues"
+  },
+  "homepage": "https://github.com/LauraPorto/retoAPI#readme"
+}
