@@ -8,6 +8,18 @@ En ella se escribe el nombre de la carpeta que queremos obviar (node_modules), e
 
 Comprobamos que las dependencias funcionen (creamos un archivo JS en el que consoleamos y comprobamos en terminal, no en navegador) - node + nombre del archivo
 
+Para poner en marcha nuestro proyecto hay que escribir en nuestro archivo app.js:
+    const express = require('express');
+    const app = express();
+    let promise = app.get("/");
+    promise.then((req) => res);
+    app.listen(3000, () => console.log("SERVIDOR ESCUCHANDO POR EL PUERTO 3000")); ---llamamos al servidor mediante el método listen de nuestra variable app, donde le meteremos el puerto
+
+Además para empezar nuestro proyecto nos iríamos a package.json en "scripts" y añadiríamos "start: node app.js"
+
+Luego construimos nuestro programa, creando un archivo de JS 
+Hacemos un JS de prueba para comprobar que lo estamos haciendo bien y lo guardamos en el directorio test, que pasaremos por .gitignore
+
 
 
 --->
