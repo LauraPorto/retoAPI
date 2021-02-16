@@ -11,7 +11,7 @@ class Car {
     }
 
     async indexAll() {
-        return;
+        return this.storage.get;
     };
 
     async store() {

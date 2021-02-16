@@ -18,7 +18,5 @@ class Storage {
     };
 };
 
-
 //Exportación de la clase
-//export default Simulator;
 module.exports = Storage;
