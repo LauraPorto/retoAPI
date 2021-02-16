@@ -4,10 +4,10 @@ const Store = require('../state');
 
 class Car {
 
-    store;
+    storage;
 
     constructor() {
-        this.store = new Store();
+        this.storage = new Store();
     }
 
 }
